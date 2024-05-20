@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatiple" content="IE=edge">
+    <meta name="viewport" content="width=device-width",
+    initial-scale="1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style type="text/css">
+        body{
+            background-image: url("images/background.jpg");
+            background-size: cover;
+            background-image: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">WARNER BROS</a>
+
+        <nav class="navbar">
+            <a href="index.html">HOME</a>
+            <a href="movies.html">MOVIES</a>
+            <a href="tv-shows.html">TV-SHOWS</a>
+            <a href="games.html">GAMES & APPS</a>
+            <a href="collections.html">COLLECTIONS</a>
+            <a href="Feedback.html">FEEDBACK</a>
+         </nav>
+    </header>
+    
+    <div class="wrapper">
+        <h3>Give us your feedback.</h3>
+        <form action="#">
+            <div class="star-rating">
+                <span class="star" data-value="1"></span>
+                <span class="star" data-value="2"></span>
+                <span class="star" data-value="3"></span>
+                <span class="star" data-value="4"></span>
+                <span class="star" data-value="5"></span>
+              </div>
+            <textarea name="opinion" cols="30" rows="5" placeholder="Your opinion..."></textarea>
+            <div class="btn-group">
+                <button type="submit" class="btn submit">Submit</button>
+                <button class="btn cancel">Cancel</button>
+            </div>
+        </form>
+    </div>
+    
+    <script src="'script.js"></script>
+</body>
+
+</html>
